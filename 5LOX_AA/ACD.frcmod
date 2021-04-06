@@ -1,0 +1,70 @@
+ARQ
+MASS
+c3 12.010        0.878               same as c3 
+hc 1.008         0.135               same as hc 
+c2 12.01         0.878               #P. Tosco,Biochemistry 2013 
+ha 1.008         0.135               same as hc 
+c  12.010        0.616               same as c  
+o  16.000        0.434               same as o  
+
+BOND
+c3-hc  337.30   1.092       same as c3-hc
+c3-c3  303.10   1.535       same as c3-c3
+c3-c2  317.00   1.510       #P. Tosco,Biochemistry 2013
+c2-ha  367.00   1.080       #P. Tosco,Biochemistry 2013
+c2-c2  560.00   1.320       #P. Tosco,Biochemistry 2013
+c3-c   328.30   1.508       same as c -c3
+c -o   648.00   1.214       same as c -o 
+
+ANGLE
+c3-c3-hc   46.370     110.050   same as c3-c3-hc
+c3-c3-c3   63.210     110.630   same as c3-c3-c3
+hc-c3-hc   39.430     108.350   same as hc-c3-hc
+c3-c3-c2   70.000     109.500   #P. Tosco,Biochemistry 2013
+c3-c2-ha   50.000     119.700   #P. Tosco,Biochemistry 2013
+c3-c2-c2   63.000     127.000   #P. Tosco,Biochemistry 2013
+hc-c3-c2   50.000     109.500   #P. Tosco,Biochemistry 2013
+c2-c2-ha   35.000     113.300   #P. Tosco,Biochemistry 2013
+c2-c3-c2   50.000     118.500   #P. Tosco,Biochemistry 2013
+c3-c3-c    63.790     110.530   same as c -c3-c3
+c3-c -o    68.030     123.110   same as c3-c -o 
+hc-c3-c    47.200     109.680   same as c -c3-hc
+o-c -o     78.170     130.380   same as o -c -o 
+
+DIHE
+c3-c3-c3-hc   1    0.160         0.000           3.000      same as hc-c3-c3-c3
+c3-c3-c3-c3   1    0.180         0.000          -3.000      same as c3-c3-c3-c3
+c3-c3-c3-c3   1    0.250       180.000          -2.000      same as c3-c3-c3-c3
+c3-c3-c3-c3   1    0.200       180.000           1.000      same as c3-c3-c3-c3
+hc-c3-c3-hc   1    0.150         0.000           3.000      same as hc-c3-c3-hc
+X -c2-c2- X   4    26.60       180.000           2.000      #P. Tosco,Biochemistry 2013
+X -c2-c3- X   6    0.000         0.000           1.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c3   1    0.150       180.000          -5.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c3   1    0.300       180.000          -4.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c3   1    0.800       180.000          -3.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c3   1    0.200         0.000          -2.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c3   1    0.800         0.000           1.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c2   1    0.080         0.000          -4.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c2   1    0.600       180.000          -3.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c2   1    0.650         0.000          -2.000      #P. Tosco,Biochemistry 2013
+c2-c2-c3-c2   1    1.100         0.000           1.000      #P. Tosco,Biochemistry 2013
+c3-c3-c3-c    1    0.156         0.000           3.000      same as X -c3-c3-X 
+c3-c3-c -o    1    0.000       180.000           2.000      same as X -c -c3-X 
+hc-c3-c3-c    1    0.156         0.000           3.000      same as X -c3-c3-X 
+hc-c3-c -o    1    0.800         0.000          -1.000      same as hc-c3-c -o 
+hc-c3-c -o    1    0.080       180.000           3.000      same as hc-c3-c -o 
+
+IMPROPER
+c2-c3-c2-ha         1.1          180.0         2.0          Using default value
+c3-c3-c -o          1.1          180.0         2.0          Using default value
+
+NONBON
+  c3          1.9080  0.1094             same as c3 
+  hc          1.4870  0.0157             same as hc 
+  c2          1.9080  0.0860             #P. Tosco,Biochemistry 2013
+  ha          1.4870  0.0157             same as hc 
+  c           1.9080  0.0860             same as c  
+  o           1.6612  0.2100             same as o  
+
+
+

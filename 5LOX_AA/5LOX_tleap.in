@@ -1,0 +1,65 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+loadamberparams frcmod.ions1lm_126_tip3p
+
+addAtomTypes {
+        { "M1"  "Fe" "sp3" }
+        { "Y1"  "N" "sp3" }
+        { "Y2"  "N" "sp3" }
+        { "Y3"  "N" "sp3" }
+        { "Y4"  "O" "sp3" }
+        { "Y5"  "O" "sp3" }
+        { "Y6"  "O" "sp3" }
+}
+
+addAtomTypes {
+        { "c"  "C" "sp2" }
+        { "o"  "O" "sp3" }
+        { "c3"  "C" "sp3" }
+        { "hc"  "H" "sp3" }
+        { "c2"  "C" "sp2" }
+        { "ha"  "H" "sp3" }
+}
+
+HD1 = loadmol2 HD1.mol2
+HD2 = loadmol2 HD2.mol2
+HD3 = loadmol2 HD3.mol2
+AN1 = loadmol2 AN1.mol2
+IE1 = loadmol2 IE1.mol2
+FE1 = loadmol2 FE1.mol2
+WT1 = loadmol2 WT1.mol2
+ACD = loadmol2 ACD.mol2
+
+loadamberparams ACD.frcmod
+loadamberparams 5LOX_active_center.frcmod
+
+mol = loadpdb 5LOX_AA_tleap.pdb
+
+bond mol.370.NE2 mol.677.FE
+bond mol.375.NE2 mol.677.FE
+bond mol.553.NE2 mol.677.FE
+bond mol.557.OD1 mol.677.FE
+bond mol.676.O mol.677.FE
+bond mol.677.FE mol.678.OW
+bond mol.369.C mol.370.N
+bond mol.370.C mol.371.N
+bond mol.374.C mol.375.N
+bond mol.375.C mol.376.N
+bond mol.552.C mol.553.N
+bond mol.553.C mol.554.N
+bond mol.556.C mol.557.N
+bond mol.557.C mol.558.N
+bond mol.675.C mol.676.N
+
+savepdb mol 5LOX_dry.pdb
+saveamberparm mol 5LOX_dry.prmtop 5LOX_dry.inpcrd
+
+solvatebox mol TIP3PBOX 10.0
+
+addions mol Na+ 0
+addions mol Cl- 0
+
+savepdb mol 5LOX_solv.pdb
+saveamberparm mol 5LOX_solv.prmtop 5LOX_solv.inpcrd
+
+quit

@@ -1,0 +1,14 @@
+@<TRIPOS>MOLECULE
+WT1
+    2     1     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 OW          2.3440   21.8400   -0.8040 Y6        1 WT1     -0.387907
+      2 HW          1.9540   21.0890   -1.3380 HW        1 WT1      0.017401
+@<TRIPOS>BOND
+     1    1    2 1
+@<TRIPOS>SUBSTRUCTURE
+     1 WT1         1 TEMP              0 ****  ****    0 ROOT
