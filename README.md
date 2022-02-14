@@ -9,7 +9,13 @@ All available files are distributed into folders depending on if they correspond
  - 14S-HpDHA (14S-hidroperoxide-docosahexaenoic)
  - ACD (Arachidonic Acid)
 
+## Available enzymes:
+
+- human5LOX
+- human12LOX
+
 ## Available enzymes with a docked substrate
 
-- 14S-HpDHA/5-LOX
+- 14S-HpDHA/5LOX
+- DHA/human12LOX
 
