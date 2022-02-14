@@ -1,0 +1,74 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff2
+source leaprc.water.opc
+
+addAtomTypes {
+        { "M1"  "Fe" "sp3" }
+        { "Y1"  "N"  "sp3" }
+        { "Y2"  "N"  "sp3" }
+        { "Y3"  "N"  "sp3" }
+        { "Y4"  "O"  "sp3" }
+        { "Y5"  "O"  "sp3" }
+        { "Y6"  "O"  "sp3" }
+}
+addAtomTypes {
+        { "c"   "C" "sp2" }
+        { "o"   "O" "sp3" }
+        { "c3"  "C" "sp3" }
+        { "hc"  "H" "sp3" }
+        { "c2"  "C" "sp2" }
+        { "ha"  "H" "sp3" }
+}
+addAtomTypes {
+        { "H"   "H" "sp3" }
+}
+
+HD1 = loadmol2 HD1.mol2
+HD2 = loadmol2 HD2.mol2
+HD3 = loadmol2 HD3.mol2
+AN1 = loadmol2 AN1.mol2
+IE1 = loadmol2 IE1.mol2
+FE1 = loadmol2 FE1.mol2
+OH1 = loadmol2 OH1.mol2
+DHA = loadmol2 DHA_ch.mol2
+
+loadamberparams 12LO_mcpbpy.frcmod
+loadamberparams OH1.frcmod
+loadamberparams DHA.frcmod
+
+
+mol = loadpdb 12LO_DHA_docked.pdb
+
+bond mol.360.NE2 mol.664.FE
+bond mol.359.C mol.360.N
+bond mol.360.C mol.361.N
+
+bond mol.365.NE2 mol.664.FE
+bond mol.364.C mol.365.N
+bond mol.365.C mol.366.N
+
+bond mol.540.NE2 mol.664.FE
+bond mol.539.C mol.540.N
+bond mol.540.C mol.541.N
+
+bond mol.544.OD1 mol.664.FE
+bond mol.543.C mol.544.N
+bond mol.544.C mol.545.N
+
+bond mol.663.O mol.664.FE
+bond mol.662.C mol.663.N
+
+bond mol.664.FE mol.665.OW
+
+savepdb mol 12LO_DHA_dry.pdb
+saveamberparm mol 12LO_DHA_dry.prmtop 12LO_DHA_dry.inpcrd
+
+
+loadamberparams frcmod.ions1lm_126_tip3p
+solvateBox mol TIP3PBOX 10.0
+addions mol Na+ 0
+addions mol Cl- 0
+savepdb mol 12LO_DHA_solv.pdb
+saveamberparm mol 12LO_DHA_solv.prmtop 12LO_DHA_solv.inpcrd
+quit
+

@@ -1,0 +1,14 @@
+@<TRIPOS>MOLECULE
+WAT
+    2     1     1     0     0
+SMALL
+bcc
+
+
+@<TRIPOS>ATOM
+      1 OW         57.4400   10.3650   -0.6570 Y6        1 OH1   -0.6328
+      2 HW         57.0910   10.5350   -1.5320 HW        1 OH1    0.4209
+@<TRIPOS>BOND
+     1    1    2 1
+@<TRIPOS>SUBSTRUCTURE
+     1 WAT         1 TEMP              0 ****  ****    0 ROOT
