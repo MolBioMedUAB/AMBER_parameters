@@ -8,6 +8,7 @@ All available files are distributed into folders depending on if they correspond
  - DHA (docosahexeanoic acid)
  - 14S-HpDHA (14S-hidroperoxide-docosahexaenoic)
  - ACD (Arachidonic Acid)
+ - OXY (Molecular oxygen)
 
 ## Available enzymes:
 
