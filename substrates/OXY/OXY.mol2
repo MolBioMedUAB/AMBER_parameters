@@ -1,0 +1,14 @@
+@<TRIPOS>MOLECULE
+3RDE_mcpbpy.pdb
+2 1 1 0 0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O1         41.6030   34.3650   32.4820 O       1 OXY    0.0000
+      2 O2         40.4570   34.8090   32.4400 O       1 OXY    0.0000
+@<TRIPOS>BOND
+     1    1    2 2
+@<TRIPOS>SUBSTRUCTURE
+     1 OXY     1 RESIDUE           4 A     OXY     0 ROOT
