@@ -14,7 +14,7 @@ All available files are distributed into folders depending on if they correspond
 
 - human5LOX
 - human12LOX
-- humanCOX2monomer
+- humanCOX2 monomer
 
 ## Available enzymes with a docked substrate
 
