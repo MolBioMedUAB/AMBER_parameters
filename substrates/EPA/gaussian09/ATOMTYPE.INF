@@ -1,0 +1,221 @@
+====================================================================================
+-------------------------------ring property (I)------------------------------------
+
+====================================================================================
+-------------------------------ring property (II)------------------------------------
+
+====================================================================================
+-------------------------------ring property (III)-----------------------------------
+atom[ 1] (C1  ) is not in any ring (nr[1]=1)
+atom[ 2] (O1  ) is not in any ring (nr[2]=1)
+atom[ 3] (O2  ) is not in any ring (nr[3]=1)
+atom[ 4] (C2  ) is not in any ring (nr[4]=1)
+atom[ 5] (C3  ) is not in any ring (nr[5]=1)
+atom[ 6] (C4  ) is not in any ring (nr[6]=1)
+atom[ 7] (C5  ) is not in any ring (nr[7]=1)
+atom[ 8] (C6  ) is not in any ring (nr[8]=1)
+atom[ 9] (C7  ) is not in any ring (nr[9]=1)
+atom[10] (C8  ) is not in any ring (nr[10]=1)
+atom[11] (C9  ) is not in any ring (nr[11]=1)
+atom[12] (C10 ) is not in any ring (nr[12]=1)
+atom[13] (C11 ) is not in any ring (nr[13]=1)
+atom[14] (C12 ) is not in any ring (nr[14]=1)
+atom[15] (C13 ) is not in any ring (nr[15]=1)
+atom[16] (C14 ) is not in any ring (nr[16]=1)
+atom[17] (C15 ) is not in any ring (nr[17]=1)
+atom[18] (C16 ) is not in any ring (nr[18]=1)
+atom[19] (C17 ) is not in any ring (nr[19]=1)
+atom[20] (C18 ) is not in any ring (nr[20]=1)
+atom[21] (C19 ) is not in any ring (nr[21]=1)
+atom[22] (C20 ) is not in any ring (nr[22]=1)
+atom[23] (H1  ) is not in any ring (nr[23]=1)
+atom[24] (H2  ) is not in any ring (nr[24]=1)
+atom[25] (H3  ) is not in any ring (nr[25]=1)
+atom[26] (H4  ) is not in any ring (nr[26]=1)
+atom[27] (H5  ) is not in any ring (nr[27]=1)
+atom[28] (H6  ) is not in any ring (nr[28]=1)
+atom[29] (H7  ) is not in any ring (nr[29]=1)
+atom[30] (H8  ) is not in any ring (nr[30]=1)
+atom[31] (H9  ) is not in any ring (nr[31]=1)
+atom[32] (H10 ) is not in any ring (nr[32]=1)
+atom[33] (H11 ) is not in any ring (nr[33]=1)
+atom[34] (H12 ) is not in any ring (nr[34]=1)
+atom[35] (H13 ) is not in any ring (nr[35]=1)
+atom[36] (H14 ) is not in any ring (nr[36]=1)
+atom[37] (H15 ) is not in any ring (nr[37]=1)
+atom[38] (H16 ) is not in any ring (nr[38]=1)
+atom[39] (H17 ) is not in any ring (nr[39]=1)
+atom[40] (H18 ) is not in any ring (nr[40]=1)
+atom[41] (H19 ) is not in any ring (nr[41]=1)
+atom[42] (H20 ) is not in any ring (nr[42]=1)
+atom[43] (H21 ) is not in any ring (nr[43]=1)
+atom[44] (H22 ) is not in any ring (nr[44]=1)
+atom[45] (H23 ) is not in any ring (nr[45]=1)
+atom[46] (H24 ) is not in any ring (nr[46]=1)
+atom[47] (H25 ) is not in any ring (nr[47]=1)
+atom[48] (H26 ) is not in any ring (nr[48]=1)
+atom[49] (H27 ) is not in any ring (nr[49]=1)
+atom[50] (H28 ) is not in any ring (nr[50]=1)
+atom[51] (H29 ) is not in any ring (nr[51]=1)
+
+====================================================================================
+-------------------------------aromatic property------------------------------------
+
+====================================================================================
+-------------------------------electronic property----------------------------------
+atom [ 1] (C1  ) is not an electron-withdrew atom
+atom [ 2] (O1  ) is an electron-withdrew atom
+atom [ 3] (O2  ) is an electron-withdrew atom
+atom [ 4] (C2  ) is not an electron-withdrew atom
+atom [ 5] (C3  ) is not an electron-withdrew atom
+atom [ 6] (C4  ) is not an electron-withdrew atom
+atom [ 7] (C5  ) is not an electron-withdrew atom
+atom [ 8] (C6  ) is not an electron-withdrew atom
+atom [ 9] (C7  ) is not an electron-withdrew atom
+atom [10] (C8  ) is not an electron-withdrew atom
+atom [11] (C9  ) is not an electron-withdrew atom
+atom [12] (C10 ) is not an electron-withdrew atom
+atom [13] (C11 ) is not an electron-withdrew atom
+atom [14] (C12 ) is not an electron-withdrew atom
+atom [15] (C13 ) is not an electron-withdrew atom
+atom [16] (C14 ) is not an electron-withdrew atom
+atom [17] (C15 ) is not an electron-withdrew atom
+atom [18] (C16 ) is not an electron-withdrew atom
+atom [19] (C17 ) is not an electron-withdrew atom
+atom [20] (C18 ) is not an electron-withdrew atom
+atom [21] (C19 ) is not an electron-withdrew atom
+atom [22] (C20 ) is not an electron-withdrew atom
+atom [23] (H1  ) is not an electron-withdrew atom
+atom [24] (H2  ) is not an electron-withdrew atom
+atom [25] (H3  ) is not an electron-withdrew atom
+atom [26] (H4  ) is not an electron-withdrew atom
+atom [27] (H5  ) is not an electron-withdrew atom
+atom [28] (H6  ) is not an electron-withdrew atom
+atom [29] (H7  ) is not an electron-withdrew atom
+atom [30] (H8  ) is not an electron-withdrew atom
+atom [31] (H9  ) is not an electron-withdrew atom
+atom [32] (H10 ) is not an electron-withdrew atom
+atom [33] (H11 ) is not an electron-withdrew atom
+atom [34] (H12 ) is not an electron-withdrew atom
+atom [35] (H13 ) is not an electron-withdrew atom
+atom [36] (H14 ) is not an electron-withdrew atom
+atom [37] (H15 ) is not an electron-withdrew atom
+atom [38] (H16 ) is not an electron-withdrew atom
+atom [39] (H17 ) is not an electron-withdrew atom
+atom [40] (H18 ) is not an electron-withdrew atom
+atom [41] (H19 ) is not an electron-withdrew atom
+atom [42] (H20 ) is not an electron-withdrew atom
+atom [43] (H21 ) is not an electron-withdrew atom
+atom [44] (H22 ) is not an electron-withdrew atom
+atom [45] (H23 ) is not an electron-withdrew atom
+atom [46] (H24 ) is not an electron-withdrew atom
+atom [47] (H25 ) is not an electron-withdrew atom
+atom [48] (H26 ) is not an electron-withdrew atom
+atom [49] (H27 ) is not an electron-withdrew atom
+atom [50] (H28 ) is not an electron-withdrew atom
+atom [51] (H29 ) is not an electron-withdrew atom
+
+====================================================================================
+--------------------------------connectivity property-------------------------------
+atom[ 1] (C1  )     2    O1
+atom[ 1] (C1  )     3    O2
+atom[ 1] (C1  )     4    C2
+atom[ 2] (O1  )     1    C1
+atom[ 3] (O2  )     1    C1
+atom[ 4] (C2  )     1    C1
+atom[ 4] (C2  )     5    C3
+atom[ 4] (C2  )    23    H1
+atom[ 4] (C2  )    24    H2
+atom[ 5] (C3  )     4    C2
+atom[ 5] (C3  )     6    C4
+atom[ 5] (C3  )    25    H3
+atom[ 5] (C3  )    26    H4
+atom[ 6] (C4  )     5    C3
+atom[ 6] (C4  )     7    C5
+atom[ 6] (C4  )    27    H5
+atom[ 6] (C4  )    28    H6
+atom[ 7] (C5  )     6    C4
+atom[ 7] (C5  )     8    C6
+atom[ 7] (C5  )    29    H7
+atom[ 8] (C6  )     7    C5
+atom[ 8] (C6  )     9    C7
+atom[ 8] (C6  )    30    H8
+atom[ 9] (C7  )     8    C6
+atom[ 9] (C7  )    10    C8
+atom[ 9] (C7  )    31    H9
+atom[ 9] (C7  )    32   H10
+atom[10] (C8  )     9    C7
+atom[10] (C8  )    11    C9
+atom[10] (C8  )    33   H11
+atom[11] (C9  )    10    C8
+atom[11] (C9  )    12   C10
+atom[11] (C9  )    34   H12
+atom[12] (C10 )    11    C9
+atom[12] (C10 )    13   C11
+atom[12] (C10 )    35   H13
+atom[12] (C10 )    36   H14
+atom[13] (C11 )    12   C10
+atom[13] (C11 )    14   C12
+atom[13] (C11 )    37   H15
+atom[14] (C12 )    13   C11
+atom[14] (C12 )    15   C13
+atom[14] (C12 )    38   H16
+atom[15] (C13 )    14   C12
+atom[15] (C13 )    16   C14
+atom[15] (C13 )    39   H17
+atom[15] (C13 )    40   H18
+atom[16] (C14 )    15   C13
+atom[16] (C14 )    17   C15
+atom[16] (C14 )    41   H19
+atom[17] (C15 )    16   C14
+atom[17] (C15 )    18   C16
+atom[17] (C15 )    42   H20
+atom[18] (C16 )    17   C15
+atom[18] (C16 )    19   C17
+atom[18] (C16 )    43   H21
+atom[18] (C16 )    44   H22
+atom[19] (C17 )    18   C16
+atom[19] (C17 )    20   C18
+atom[19] (C17 )    45   H23
+atom[20] (C18 )    19   C17
+atom[20] (C18 )    21   C19
+atom[20] (C18 )    46   H24
+atom[21] (C19 )    20   C18
+atom[21] (C19 )    22   C20
+atom[21] (C19 )    47   H25
+atom[21] (C19 )    48   H26
+atom[22] (C20 )    21   C19
+atom[22] (C20 )    49   H27
+atom[22] (C20 )    50   H28
+atom[22] (C20 )    51   H29
+atom[23] (H1  )     4    C2
+atom[24] (H2  )     4    C2
+atom[25] (H3  )     5    C3
+atom[26] (H4  )     5    C3
+atom[27] (H5  )     6    C4
+atom[28] (H6  )     6    C4
+atom[29] (H7  )     7    C5
+atom[30] (H8  )     8    C6
+atom[31] (H9  )     9    C7
+atom[32] (H10 )     9    C7
+atom[33] (H11 )    10    C8
+atom[34] (H12 )    11    C9
+atom[35] (H13 )    12   C10
+atom[36] (H14 )    12   C10
+atom[37] (H15 )    13   C11
+atom[38] (H16 )    14   C12
+atom[39] (H17 )    15   C13
+atom[40] (H18 )    15   C13
+atom[41] (H19 )    16   C14
+atom[42] (H20 )    17   C15
+atom[43] (H21 )    18   C16
+atom[44] (H22 )    18   C16
+atom[45] (H23 )    19   C17
+atom[46] (H24 )    20   C18
+atom[47] (H25 )    21   C19
+atom[48] (H26 )    21   C19
+atom[49] (H27 )    22   C20
+atom[50] (H28 )    22   C20
+atom[51] (H29 )    22   C20
+----------------------------------------END-----------------------------------------
+
