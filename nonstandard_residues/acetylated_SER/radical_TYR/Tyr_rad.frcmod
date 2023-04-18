@@ -1,0 +1,102 @@
+Remark line goes here
+MASS
+N  14.010        0.530               same as n  
+H  1.008         0.161               same as hn 
+CT 12.010        0.878               same as c3 
+H1 1.008         0.135               same as h1 
+HC 1.008         0.135               same as hc 
+C* 12.010        0.616               same as c2 ( Carbon radical !!!)
+CE 12.010        0.878               same as c3
+HA 1.008         0.135               same as ha 
+C  12.010        0.616               same as c  
+O* 16.000        0.465               same as ether and ester oxygen
+O  16.000        0.434               same as o  
+
+BOND
+H -N   410.20   1.009       same as hn- n, penalty score=  0.0
+CT-N   330.60   1.460       same as c3- n, penalty score=  0.0
+CT-H1  335.90   1.093       same as c3-h1, penalty score=  0.0
+CT-CT  303.10   1.535       same as c3-c3, penalty score=  0.0
+C -CT  328.30   1.508       same as  c-c3, penalty score=  0.0
+CT-HC  337.30   1.092       same as c3-hc, penalty score=  0.0
+C*-CT  323.50   1.513       same as c3-ca
+C*-CE  430.60   1.416       Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+CE-HA  344.30   1.087       same as ca-ha
+CE-CE  451.89   1.379       Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C -CE  321.36   1.452       Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C -O*  544.19   1.257       Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C -O   648.00   1.214       same as  c- o, penalty score=  0.0
+
+ANGLE
+H1-CT-N    49.820     109.320   same as h1-c3-n , penalty score=  0.0
+CT-CT-N    65.850     112.130   same as c3-c3-n , penalty score=  0.0
+C -CT-N    66.670     111.560   same as c -c3-n , penalty score=  0.0
+CT-N -H    46.040     116.780   same as c3-n -hn, penalty score=  0.0
+CT-CT-HC   46.370     110.050   same as c3-c3-hc, penalty score=  0.0
+C*-CT-CT   63.250     112.090   same as c3-c3-ca
+CT-C -O    68.030     123.110   same as c3-c -o , penalty score=  0.0
+CT-CT-H1   46.360     110.070   same as c3-c3-h1, penalty score=  0.0
+C -CT-H1   47.630     107.660   same as c -c3-h1, penalty score=  0.0
+C -CT-CT   63.790     110.530   same as c -c3-c3, penalty score=  0.0
+CE-C*-CT   99.219     121.905   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+HC-CT-HC   39.430     108.350   same as hc-c3-hc, penalty score=  0.0
+C*-CT-HC   46.960     110.150   same as ca-c3-hc
+C*-CE-HA   66.396     118.855   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C*-CE-CE   155.875    121.041   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+CE-C*-CE   174.207    119.143   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+CE-CE-HA   65.949     120.102   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C -CE-CE   159.471    121.013   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+CE-C -O*   109.589    121.495   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+CE-C -CE   172.628    116.708   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+C -CE-HA   60.051     117.094   Gaussian09, DFT-b3lyp(6,31g(d,p)) Cebrian-Prats
+
+DIHE
+HC-CT-CT-N    9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+C*-CT-CT-N    9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+O -C -CT-N    6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+H1-CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+CT-CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+C -CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+CE-C*-CT-CT   6    0.000         0.000           2.000      same as X -c3-ca-Xn
+H1-CT-CT-HC   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+C*-CT-CT-H1   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+O -C -CT-H1   1    0.800         0.000          -1.000      same as h1-c3-c -o 
+O -C -CT-H1   1    0.080       180.000           3.000      same as h1-c3-c -o , penalty score=  0.0
+O -C -CT-CT   6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+CT-C*-CE-HA   4    14.500      180.000           2.000      same as X -ca-ca-X
+CT-C*-CE-CE   4    14.500      180.000           2.000      same as X -ca-ca-X 
+C -CT-CT-HC   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+CE-C*-CT-HC   6    0.000         0.000           2.000      same as X -c3-ca-Xn
+C -CT-CT-C*   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+C*-CE-CE-HA   2   14.500       180.000           2.000      same as X -ca-ca-Xn
+C -CE-CE-C*   4   14.500       180.000           2.000      same as X -ca-ca-Xn
+CE-C*-CE-CE   4   14.500       180.000           2.000      same as X -ca-ca-Xn
+CE-C*-CE-HA   2   14.500       180.000           2.000      same as X -ca-ca-Xn
+O*-C -CE-CE   4    4.000       180.000           2.000      same as X -c -ca-Xn
+CE-C -CE-CE   4    4.000       180.000           2.000      same as X -c -ca-Xn
+HA-CE-CE-HA   4   14.500       180.000           2.000      same as X -ca-ca-Xn
+C -CE-CE-HA   4   14.500       180.000           2.000      same as X -ca-ca-Xn
+CE-C -CE-HA   4    4.000       180.000           2.000      same as X -c -ca-Xn
+O*-C -CE-HA   4    4.000       180.000           2.000      same as X -c -ca-Xn
+
+IMPROPER
+CE-CE-C*-CT         1.1          180.0         2.0          Using the default value
+C*-CE-CE-HA         1.1          180.0         2.0          Using the default value
+C -CE-CE-HA         1.1          180.0         2.0          Using the default value
+CE-CE-C -O*         1.1          180.0         2.0          Using the default value
+
+NONBON
+  N           1.8240  0.1700             same as n  
+  H           0.6000  0.0157             same as hn 
+  CT          1.9080  0.1094             same as c3 
+  H1          1.3870  0.0157             same as h1 
+  HC          1.4870  0.0157             same as hc 
+  C*          1.9080  0.0860             same as c
+  CE          1.9080  0.0860             same as ca
+  HA          1.4590  0.0150             same as ha 
+  C           1.9080  0.0860             same as c  
+  O*          1.6837  0.1700             same as ether and ester oxygen
+  O           1.6612  0.2100             same as o  
+
+
+
