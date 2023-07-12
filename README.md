@@ -9,6 +9,8 @@ All available files are distributed into folders depending on if they correspond
  - 14S-HpDHA (14S-hidroperoxide-docosahexaenoic)
  - ACD (Arachidonic Acid)
  - OXY (Molecular oxygen)
+ - EPA (Eicosapentaenoic acid)
+ - MaR1 (Maresin-1)
 
 ## Available enzymes:
 
