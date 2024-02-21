@@ -16,6 +16,7 @@ All available files are distributed into folders depending on if they correspond
 
 - human5LOX
 - human12LOX
+- human15LOX
 - humanCOX2 - monomer
 - humanCOX2 - homodimer
 
