@@ -1,0 +1,14 @@
+@<TRIPOS>MOLECULE
+OH1
+    2     1     1     0     0
+SMALL
+bcc
+
+
+@<TRIPOS>ATOM
+      1 OW         4.390  -1.256   5.773 Y7        1 OH1   -0.523794
+      2 HW         5.325  -1.104   6.036 HW        1 OH1    0.284503
+@<TRIPOS>BOND
+     1    1    2 1
+@<TRIPOS>SUBSTRUCTURE
+     1 OH1         1 TEMP              0 ****  ****    0 ROOT
